@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Which language is primarily used to structure web pages?",
+    "answers": [
+      { "text": "CSS", "correct": false },
+      { "text": "HTML", "correct": true },
+      { "text": "JavaScript", "correct": false },
+      { "text": "Python", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "answers": [
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "2", "correct": true },
+      { "text": "5", "correct": false }
+    ]
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "answers": [
+      { "text": "Five", "correct": false },
+      { "text": "Six", "correct": true },
+      { "text": "Seven", "correct": false },
+      { "text": "Eight", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas do plants absorb during photosynthesis?",
+    "answers": [
+      { "text": "Oxygen", "correct": false },
+      { "text": "Nitrogen", "correct": false },
+      { "text": "Carbon dioxide", "correct": true },
+      { "text": "Hydrogen", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answers": [
+      { "text": "African elephant", "correct": false },
+      { "text": "Blue whale", "correct": true },
+      { "text": "Giraffe", "correct": false },
+      { "text": "Great white shark", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure follows the LIFO principle?",
+    "answers": [
+      { "text": "Queue", "correct": false },
+      { "text": "Stack", "correct": true },
+      { "text": "Linked list", "correct": false },
+      { "text": "Graph", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the value of 7 * 8?",
+    "answers": [
+      { "text": "54", "correct": false },
+      { "text": "56", "correct": true },
+      { "text": "64", "correct": false },
+      { "text": "48", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is famous for the Great Pyramid of Giza?",
+    "answers": [
+      { "text": "Greece", "correct": false },
+      { "text": "Mexico", "correct": false },
+      { "text": "Egypt", "correct": true },
+      { "text": "India", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property changes the text color?",
+    "answers": [
+      { "text": "background-color", "correct": false },
+      { "text": "font-style", "correct": false },
+      { "text": "text-align", "correct": false },
+      { "text": "color", "correct": true }
+    ]
+  },
+  {
+    "question": "What is the main function of a web browser?",
+    "answers": [
+      { "text": "To compile C++ programs", "correct": false },
+      { "text": "To display and interact with web pages", "correct": true },
+      { "text": "To manufacture computer hardware", "correct": false },
+      { "text": "To manage database servers only", "correct": false }
+    ]
+  }
+]
