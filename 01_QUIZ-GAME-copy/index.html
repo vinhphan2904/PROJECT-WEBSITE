@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <!-- Quiz-start -->
+      <div id="quiz-screen-start" class="screen active">
+        <h1 class="heading" id="quiz-screen-start__heading">Quiz Time!</h1>
+        <p class="desc" id="quiz-screen-start__desc">
+          Test your knowledge with these fun questions
+        </p>
+        <button class="action-btn" id="button-start">Start Quiz</button>
+      </div>
+
+      <!-- Quiz-questions -->
+      <div id="quiz-screen-question" class="screen">
+        <h2 id="quiz-screen-question__heading">xin chao</h2>
+        <div class="score-bar">
+          <span
+            >Question <span id="current-questions">1</span> of
+            <span id="quiz-screen-question__total-questions">5</span></span
+          >
+          <span>Score <span id="score-process">0</span></span>
+        </div>
+        <div id="question-list"></div>
+        <div id="process-bar">
+            <div id="process"></div>
+        </div>
+      </div>
+
+      <!-- Quiz-results -->
+      <div id="quiz-screen-results" class="screen">
+        <h1 id="quiz-screen-results__heading" class="heading">Quiz Results</h1>
+        <div class="score-notice">
+          <p>
+            You scored <span id="score-achived">1</span> out of
+            <span id="quiz-screen-results__total-questions">5</span>
+          </p>
+          <p id="congratulation">Xin chafo</p>
+        </div>
+        <button class="action-btn" id="button-restart">Restart Quiz</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
